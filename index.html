@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="formulaire">
+        <label for="formulaire">
+            <h1>Etap 1: Enskripsyon</h1>
+        </label>
+
+        <div class="class1">
+            <label for="lastName">Last name</label>
+            <input type="text" name="lastName" id="lastName">
+            <div id="incorrectLastName"></div>
+        </div>
+
+        <div class="class1">
+            <label for="firstName">First name</label>
+            <input type="text" name="firstName" id="firstName">
+            <div id="incorrectFirstName"></div>
+
+        </div>
+
+        <div class="email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <div id="incorrectEmail"></div>
+        </div>
+
+
+        <div class="numberPhone">
+            <label for="numberPhone">Number Phone</label>
+            <input type="number" name="numberPhone" id="numberPhone">
+            <div id="incorrectNumberPhone"></div>
+
+        </div>
+
+        <div class="password">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <div id="incorrectPassword"></div>
+        </div>
+
+
+        <div class="confirmPassword">
+            <label for="confirmPassword">confirmPassword</label>
+            <input type="password" name="confirmPassword" id="confirmPassword">
+            <div id="incorrectConfirmPassword"></div>
+        </div>
+
+        <div >
+            <button type="submit" id="submit">submit</button>
+        </div>
+
+
+
+    </form>
+
+    <form id="form2">
+        <label for="form2"><h1>Etap 2: Enfòmasyon anplis</h1> </label>
+        <div>        <select id="id" name="country">
+            <option value=""></option>
+            <option value="NIF">NIF</option>
+            <option value="NIN">NIN</option>
+        </select>
+        <div id="champVide"></div>
+    </div>
+
+        <div>
+            <label for="test"> </label>
+            <input type="number" name="test" id="test">
+            <div id="incorrectNif"></div>
+        </div>
+        
+
+        <div class="group">
+            <label class='title'>gender</label>
+            <label>G<input id="mas" type="radio" value="Masculin" name='gender' /></label>
+            <label>F<input id="fem" type="radio" value="Feminin" name='gender' /></label>
+            <div id="incorrectRadios"></div>
+          </div>
+ 
+
+<div>
+    <label for="">interests</label>
+    
+    <label for="Technology">Technology 
+<input type="checkbox" name="choices" value="Technology" id="Technology">
+</label>
+
+    <label for="Science">Science
+<input type="checkbox" name="choices" value="Science" id="Science">
+</label>
+
+    <label for="Culture">Culture
+<input type="checkbox" name="choices" value="Culture"  id="Culture">
+</label>
+
+    <label for="Sport">Sport
+<input type="checkbox" value="Sport"  name="choices" id="Sport">
+</label>
+
+    <label for="Music">Music
+<input type="checkbox" value="Music"  name="choices" id="Music">
+</label>
+
+<div id="incorrectInterests"></div>
+
+</div>
+<input type="submit" value="envoyer" id="envoyer">
+
+    </form>
+<div id="affichage">
+     
+</div>
+
+
+
+    <script src="script.js"> </script>
+</body>
+
+</html>

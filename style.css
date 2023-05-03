@@ -1,0 +1,69 @@
+#formulaire
+{
+    margin: 5em;
+    margin-left: 8em;
+    margin-right: 8em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+.class1
+{
+    margin: 1em;
+    padding: 1em;
+}
+.email
+{
+    margin: 3em;
+
+}
+
+.password
+{
+    margin: 3em;
+    margin-left: 2em;
+
+}
+
+
+.confirmPassword{
+    margin: 1em;
+    margin-right: 4em;
+}
+
+.numberPhone{
+    margin: 2em;
+    margin-left: 1em;
+}
+
+
+#form2
+{
+    margin: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: rgb(237, 248, 248);
+    justify-content: center;
+    align-items: center;
+}
+
+
+#affichage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12em;
+    padding: 2em;
+
+
+}
